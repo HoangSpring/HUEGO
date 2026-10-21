@@ -1,0 +1,68 @@
+:root {
+  --color-background: #f5f2ec;
+  --color-surface: #fffdf9;
+  --color-surface-muted: #f0ece5;
+  --color-primary: #1c6b5d;
+  --color-primary-hover: #155349;
+  --color-secondary: #d9b16b;
+  --color-accent: #e9f2ed;
+  --color-text-primary: #1e2a2b;
+  --color-text-secondary: #536465;
+  --color-text-muted: #758082;
+  --color-border: #d9d0c7;
+  --color-success: #2b8a5d;
+  --color-warning: #d98b2b;
+  --color-error: #b6453d;
+  --color-shadow-subtle: rgba(30, 42, 43, 0.08);
+  --color-shadow-card: rgba(30, 42, 43, 0.12);
+  --color-shadow-elevated: rgba(30, 42, 43, 0.18);
+
+  --font-sans: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Georgia', 'Times New Roman', serif;
+
+  --text-display: clamp(2.5rem, 5vw, 4.5rem);
+  --text-h1: clamp(2rem, 3vw, 2.8rem);
+  --text-h2: clamp(1.5rem, 2.1vw, 2.1rem);
+  --text-h3: clamp(1.1rem, 1.7vw, 1.5rem);
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-caption: 0.75rem;
+  --text-label: 0.75rem;
+  --text-button: 0.96rem;
+
+  --line-height-tight: 1.1;
+  --line-height-body: 1.6;
+  --line-height-relaxed: 1.8;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-pill: 999px;
+
+  --shadow-subtle: 0 8px 24px var(--color-shadow-subtle);
+  --shadow-card: 0 12px 32px var(--color-shadow-card);
+  --shadow-elevated: 0 20px 50px var(--color-shadow-elevated);
+
+  --container-max: 1180px;
+  --content-padding-mobile: 1rem;
+  --content-padding-desktop: 1.5rem;
+  --header-height: 5rem;
+}
